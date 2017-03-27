@@ -1,5 +1,7 @@
-git commands :
---------------
+
+
+git commands
+------------
 
 - git init
 - git status
@@ -19,12 +21,30 @@ step4: git status (use this to make sure all the files are commited or not)
 step5 : git push  -u origin master(use this command to push the code to github)
 
 
-Branch
----------
-How to create branch?
+Branches
+--------
+
+1)what are branches?
+2)how to create branch
+3)how to checkoutbranch?
+4)how to merge branch to master
+5)how to delete branch(local and remote)
+
 Step 1:
  Create branch "branchname"
     git branch "branch name"
 
 step 2 : checkout branch
  git checkout "branchname"
+
+step 3: merge new branch
+git merge  "branchname"
+
+step 4: delete branch
+git branch -d "branch name" (deletes from local)
+git push origin -delete "branchname"  (deletes from remote)
+
+
+how to send email from github
+-----------------------------
+step 1: Github-settings-integration and services-addservice-email
