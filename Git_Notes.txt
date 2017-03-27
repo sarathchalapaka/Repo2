@@ -1,0 +1,19 @@
+git commands :
+--------------
+
+- git init
+- git status
+- git add
+- git commit -m"...."
+- git remote add origin https://github.com/sarathchalapaka/Repo2.git
+- git push  -u origin master
+
+
+Steps to store project code into Git-Hub
+----------------------------------------
+
+step1: git add .(This command will add all the files)
+step2: git commit -m "should write relevant message here"(commits code)
+step 3: need to configure github(Incase allready done then ignore this step)
+step4: git status (use this to make sure all the files are commited or not)
+step5 : git push  -u origin master(use this command to push the code to github)
